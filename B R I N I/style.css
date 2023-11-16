@@ -1,0 +1,177 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-header {
+    background-color: #383961;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 27px;
+    width: 635px;
+    border: 1px solid #efefef;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #383961;
+    padding: 0px 13px;
+}
+
+.search span {
+    width: 35px;
+    background-color: #383961;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.bell-icon {
+    font-size: 21px;
+    justify-content: end;
+    cursor: pointer;
+    display: flex;
+}
+
+.bell-icon:hover {
+    color: pink;
+}
+
+.topbar-right {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topbar-right .action-btn {
+    text-decoration: none;
+    color: #031927;
+    background-color: #e9ebf8;
+    padding: 3px 25px;
+    border-radius: 30px;
+}
+
+.header {
+    background-color: #383961;
+    border-top: 0.7px solid #efefef;
+
+}
+
+.header li a {
+    color: #efefef;
+    font-size: 15px;
+}
+
+.header li a:hover {
+    color: pink;
+}
+
+.berita-populer .col-lg-8 {
+    padding-right: 25px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+}
+
+.c-item {
+    width: 200px;
+    height: 300px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.berita-populer {
+    margin-top: 30px;
+}
+
+.berita-populer .col-lg-4 {
+    background-color: #e9ebf8;
+    padding: 15px 10px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.berita-populer h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.berita-populer .bp-right {
+    height: 240px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.berita-populer .bp-list {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    display: flex;
+    line-height: 1.3em;
+    border-bottom: 1px solid black;
+}
+
+.berita-populer .bp-list .bp-img {
+    position: relative;
+    width: 90px;
+    margin-left: 7px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    float: left;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.berita-populer .bp-list .bp-img img {
+    max-width: 100%;
+}
+
+.berita-populer .bp-list .bp-content {
+    margin: auto 0;
+    float: left;
+    width: calc(100% - 115px);
+    padding: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    background-color: #dde0f6;
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #383961;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #383961;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.berita-terkini {
+    margin-top: 30px;
+}
